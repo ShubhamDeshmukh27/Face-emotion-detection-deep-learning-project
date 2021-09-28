@@ -1,6 +1,6 @@
-**Live Class Monitoring System(Face Emotion Recognition) image**
+## **Live Class Monitoring System(Face Emotion Recognition) image**
 
-**Problem Statement:**
+## **Problem Statement:**
 
 The Indian education landscape has been undergoing rapid changes for the past 10 years owing to the advancement of web-based learning services, specifically, eLearning platforms.
 
@@ -14,11 +14,11 @@ Deep learning backed system not only solves the surveillance issue, but it also 
 
 I will solve the above-mentioned challenge by applying deep learning algorithms to live video data. The solution to this problem is by recognizing facial emotions.
 
-**Dataset Information:**
+## **Dataset Information:**
 I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised. 
 Here is the dataset link:- https://www.kaggle.com/msambare/fer2013
 
-**Model Creation**
+## **Model Creation**
 
 **1) Using DeepFace**
 
@@ -67,20 +67,20 @@ Loss & Accuracy Plot
 
 
 
-**Realtime Local Video Face Detection**
+## **Realtime Local Video Face Detection**
 
 We created patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
 
 ![image](https://user-images.githubusercontent.com/84754003/135030585-541ed011-263e-43a6-bda1-d44e95f83261.png)
 
-**Deployment of Streamlit WebApp in Heroku and Streamlit**
+## **Deployment of Streamlit WebApp in Heroku and Streamlit**
 
 We deployed the app in Heroku if you saw in the starting section of github repo, you can see the all the requirement files are there for creating an app on Heroku of name “face-emotion-recognition-ofg”.
 But due to high slug size the buffering takes time so we have ran our app working on local and it ran properly and app is also fine also we’ve included video on github repo.
 
 Heroku Link:- https://face-emotion-recognition-ofg.herokuapp.com/
 
-**Conclusion:**
+## **Conclusion:**
 
 We build the WebApp using streamlit and deployed in Heroku and Streamlit Sharing.
 
@@ -91,7 +91,7 @@ It was such an amazing and interesting project.
 
 We learnt a lot from this.
 
-**Some Real Life Experience from thing amazing project**
+## **Some Real Life Experience from thing amazing project**
 
 Understand the deep concept of project.
 
